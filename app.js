@@ -80,7 +80,7 @@ app.get('/design-example/:group/:item/:type', (req, res) => {
   const { group } = req.params;
   const { item } = req.params;
   const { type } = req.params;
-  const examplePath = path.join(__dirname, `app/views/faqs/${group}/${item}/${type}/index.njk`);
+  const examplePath = path.join(__dirname, `app/views/design-system/${group}/${item}/${type}/index.njk`);
 
   // Get the given example as HTML.
   const exampleHtml = fileHelper.getHTMLCode(examplePath);
@@ -168,15 +168,15 @@ app.get('/community/propose-component-pattern', (req, res) => {
 // Redirects for new service standards URLs
 
 app.get('/service-standard', (req, res) => {
-  res.redirect(301, '/standards-and-technology/service-standard');
+  res.redirect(301, '/volunteering-near-you/service-standard');
 });
 
 app.get('/service-standard/about', (req, res) => {
-  res.redirect(301, '/standards-and-technology/about-the-service-standard');
+  res.redirect(301, '/volunteering-near-you/about-the-service-standard');
 });
 
 app.get('/service-standard/:page', (req, res) => {
-  res.redirect(301, `/standards-and-technology/service-standard-points/${req.params.page}`);
+  res.redirect(301, `/volunteering-near-you/service-standard-points/${req.params.page}`);
 });
 
 // REDIRECT STOPS HERE

@@ -1,12 +1,9 @@
 {% set serviceStandard = [
-  { title: "NHS service standard", url: "/standards-and-technology/service-standard" },
-  { title: "About the NHS service standard", url: "/standards-and-technology/about-the-service-standard" }
+  { title: "Volunteer Locally", url: "/volunteering-near-you/" }
 ] %}
 
 {% set technicalSpecifications = [
-  { title: "About technology", url: "/standards-and-technology/technology/about-technology" },
-  { title: "NHS login", url: "/standards-and-technology/technology/NHS-login" },
-  { title: "Personal Demographics Service (PDS)", url: "/standards-and-technology/technology/personal-demographics-service-PDS" }
+  { title: "Find a health care organisation", url: "/volunteering-near-you/find-volunteering-opportunities-by-name-of-health-care-org" }
 ] %}
 
 {% set dsPrinciples = [
@@ -145,15 +142,15 @@
 
 <nav class="app-side-nav">
 
-  {%- if pageSection == "Standards and technology" %}
-    <h2 class="app-side-nav__heading">NHS service standard</h2>
+  {%- if pageSection == "Location and name" %}
+    <h2 class="app-side-nav__heading">Find volunteer opportunities by location</h2>
     <ul class="nhsuk-list app-side-nav__list">
     {% for item in serviceStandard %}
       <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
     </ul>
 
-    <h2 class="app-side-nav__heading">Technology</h2>
+    <h2 class="app-side-nav__heading">Find volunteer opportunities by name of health care org</h2>
     <ul class="nhsuk-list app-side-nav__list">
     {% for item in technicalSpecifications %}
       <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
