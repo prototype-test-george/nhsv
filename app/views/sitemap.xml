@@ -74,7 +74,7 @@
     <loc>https://service-manual.nhs.uk/volunteering-near-you/technology/personal-demographics-service-PDS</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/design-principles</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/design-principles</loc>
   </url>
   <url>
     <loc>https://service-manual.nhs.uk/accessibility</loc>
@@ -83,13 +83,13 @@
     <loc>https://service-manual.nhs.uk/content</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/production</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/production</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/prototyping</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/prototyping</loc>
   </url>
   <url>
     <loc>https://service-manual.nhs.uk/community-and-contribution</loc>
@@ -164,133 +164,133 @@
     <loc>https://service-manual.nhs.uk/content/links</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/colour</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/colour</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/icons</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/icons</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/layout</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/layout</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/page-template</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/page-template</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/spacing</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/spacing</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/typography</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/typography</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/action-link</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/action-link</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/back-link</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/back-link</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/breadcrumbs</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/breadcrumbs</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/buttons</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/buttons</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/card</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/card</loc>
   </url>
     <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/care-cards</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/care-cards</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/checkboxes</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/checkboxes</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/contents-list</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/contents-list</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/date-input</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/date-input</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/details</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/details</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/do-and-dont-lists</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/do-and-dont-lists</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/error-message</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/error-message</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/error-summary</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/error-summary</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/expander</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/expander</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/fieldset</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/fieldset</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/footer</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/footer</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/header</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/header</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/images</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/images</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/inset-text</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/inset-text</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/pagination</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/pagination</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/radios</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/radios</loc>
   </url>
    <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/review-date</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/review-date</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/select</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/select</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/skip-link</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/skip-link</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/summary-list</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/summary-list</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/table</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/table</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/tag</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/tag</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/text-input</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/text-input</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/textarea</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/textarea</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/components/warning-callout</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/components/warning-callout</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/a-to-z</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/a-to-z</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/ask-users-for-their-nhs-number</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/ask-users-for-their-nhs-number</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/help-users-decide-when-and-where-to-get-care</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/help-users-decide-when-and-where-to-get-care</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/mini-hub</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/mini-hub</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/start-page</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/start-page</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/patterns/reassure-users-that-a-page-is-up-to-date</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/patterns/reassure-users-that-a-page-is-up-to-date</loc>
   </url>
   <url>
-    <loc>https://service-manual.nhs.uk/design-system/styles/focus-state</loc>
+    <loc>https://service-manual.nhs.uk/how-to-get-involved/styles/focus-state</loc>
   </url>
   <url>
     <loc>https://service-manual.nhs.uk/community-and-contribution/contribution-criteria</loc>

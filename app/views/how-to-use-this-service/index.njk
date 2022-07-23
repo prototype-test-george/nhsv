@@ -1,0 +1,26 @@
+{% set pageTitle = "How to use this service" %}
+{% set pageDescription = "This website offers a list of over 200 NHS Trusts in England" %}
+{% set pageSection = "How to use this service" %}
+{% set landingPage = true %}
+
+{% extends "includes/app-layout.njk" %}
+
+{% block bodyContent %}
+
+
+  <div class="app-index-navigation app-u-hide-desktop">
+    {% include "includes/_side-nav.njk" %}
+  </div>
+
+
+<p>They are listed in alphabetical order by geographical areas and by city.</p>
+
+<p>It also includes some of our charity partners who offer NHS volunteering opportunities in England.</p>
+
+<p>Once you select your preference, it will take you to the volunteering page on the website of the organisation you have chosen.</p>
+
+<p>There, you will find more details on available opportunities and how to get involved.</p>
+
+
+
+{% endblock %}

@@ -1,10 +1,37 @@
 {% set serviceStandard = [
-  { title: "Volunteer Locally", url: "/volunteering-near-you/" }
+  { title: "Find an opportunity near me", url: "/volunteering-near-you/" }
+] %}
+
+{% set useService = [
+  { title: "GPs", url: "/how-to-use-this-service/gps" }
 ] %}
 
 {% set technicalSpecifications = [
-  { title: "Find a health care organisation", url: "/volunteering-near-you/find-volunteering-opportunities-by-name-of-health-care-org" }
+  { title: "A to Z", url: "/volunteering-near-you/find-volunteering-opportunities-by-name-of-health-care-org" }
+
+
 ] %}
+
+{%- if pageSection == "Location and name" %}
+  <h2 class="app-side-nav__heading">NHS Trust Directory</h2>
+  <ul class="nhsuk-list app-side-nav__list">
+  {% for item in serviceStandard %}
+    <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+
+
+
+  <h2 class="app-side-nav__heading">A to Z of NHS Trusts in England</h2>
+  <ul class="nhsuk-list app-side-nav__list">
+  {% for item in technicalSpecifications %}
+    <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+{% endif %}
+
 
 {% set dsPrinciples = [
   { title: "Generic Questions", url: "/faqs/generalfaqs" }
@@ -34,7 +61,7 @@
 ] %}
 
 {% set content = [
-  
+
 
 ] %}
 
@@ -123,29 +150,27 @@
   { title: "What you need to volunteer in Health Care", url: "#" }
 ] %}
 
-{% set whatsNew = [
+{% set howInvolved = [
   { title: "Youth Volunteering", url: "/whats-new/youth-volunteering" },
   { title: "NHS Cadets", url: "/whats-new/nhs-cadets" }
 ] %}
 
+
+
 <nav class="app-side-nav">
 
-  {%- if pageSection == "Location and name" %}
-    <h2 class="app-side-nav__heading">Find volunteer opportunities by location</h2>
-    <ul class="nhsuk-list app-side-nav__list">
-    {% for item in serviceStandard %}
-      <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
+{%- if pageSection == "How to use this service" %}
+  <h2 class="app-side-nav__heading">GPs</h2>
+  <ul class="nhsuk-list app-side-nav__list">
+  {% for item in useService %}
+    <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
 
-    <h2 class="app-side-nav__heading">Find volunteer opportunities by name of health care org</h2>
-    <ul class="nhsuk-list app-side-nav__list">
-    {% for item in technicalSpecifications %}
-      <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
 
-  {% endif %}
+
+{% endif %}
+
 
 
   {%- if pageSection == "FAQs" and subSection != "Styles" and subSection != "Components" and subSection != "Patterns" %}
@@ -296,7 +321,7 @@
     </ul>
   {% endif %}
 
-  {%- if pageSection == "Advice and Guidance" %}
+  {%- if pageSection == "Exploring volunteering opportunities" %}
     <ul class="nhsuk-list app-side-nav__list">
     {% for item in community %}
       <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
@@ -304,11 +329,12 @@
     </ul>
   {% endif %}
 
-  {%- if pageSection == "Get involved" %}
+  {%- if pageSection == "Get Involved" %}
     <ul class="nhsuk-list app-side-nav__list">
-    {% for item in whatsNew %}
+    {% for item in howInvolved %}
       <li class="app-side-nav__item{% if item.title == pageTitle %} app-side-nav__item--current{% endif %}"><a class="app-side-nav__link" href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
     </ul>
   {% endif %}
+
 </nav>
